@@ -1,0 +1,19 @@
+{
+  "name": "upyun-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "liangyali <me@liangyali.com> (http://liangyali.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gongzili456/upyun-stream-upload.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.61.0",
+    "uuid": "^2.0.1"
+  }
+}
