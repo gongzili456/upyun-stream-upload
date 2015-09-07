@@ -24,7 +24,7 @@ router.put('/upload', function*() {
 
   while (part = yield parts) {
 
-    let filename = `aaa/${uuid.v4()}${path.extname(part.filename)}`;
+    let filename = `${uuid.v4()}${path.extname(part.filename)}`;
     
     res = yield upyun.upload(part, filename);
 
