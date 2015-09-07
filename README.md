@@ -1,7 +1,9 @@
 # upyun-stream-upload
 
 
+#Install
 
+`npm install upyun-stream`
 
 # Usage
 
